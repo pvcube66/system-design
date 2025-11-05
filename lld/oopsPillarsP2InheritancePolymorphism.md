@@ -1,5 +1,5 @@
 Inheritance:
-its a concept using which the child classes acquire the properties and behaviours of the 
+its a concept using which the child classes acquire the properties and behaviours of the
 parent classes
 
 eg:
@@ -39,14 +39,14 @@ eg: chargeCar
 void chargeCar()
 }
 
-syntax: 
+syntax:
 class child: <access_specifier> parent{
 }
 here if access_specifier is:
 1.public: all the things in hte parent are public to the child class
 2.private: all the things in the parent become private in the childclass again brother here they are accessible in the childclass but if some other class
 extends or inherits the childclass say grandchild . they wont be accessible here
-3.protected: all the things in parent become protected in childclass. child can access but other classes cant if they want they have to inherit 
+3.protected: all the things in parent become protected in childclass. child can access but other classes cant if they want they have to inherit
 
 Polymorphism:
 same object but different forms
@@ -78,7 +78,7 @@ public:
 
 method overloading/compiletime/static:
 same method but different parameters, same func name but diff parameters
-eg: 
+eg:
 int add(int a,int b){
 return a+b;
 }
